@@ -8,7 +8,24 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+  /* -- konfigurasi Firebase milikmu -- */
+  window.__firebase_config = JSON.stringify({
+    apiKey: "AIzaSy…",
+    authDomain: "your-app.firebaseapp.com",
+    projectId: "your-app",
+    storageBucket: "your-app.appspot.com",
+    messagingSenderId: "…",
+    appId: "…"
+  });
+  /* optional — kalau dipakai di kode */
+  window.__app_id = "print0508";
+  /* kalau kamu memang punya custom-token: */
+  // window.__initial_auth_token = "…";
+</script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
 
